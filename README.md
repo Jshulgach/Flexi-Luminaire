@@ -68,9 +68,9 @@ To get a local copy up and running follow these simple example steps.
   + Install [Leap Motion Controller Orion Beta SDK](https://api.leapmotion.com/orion)
   + Install Arduino IDE Editor
       Libraries needed by arduino software: [TSL2591](https://github.com/adafruit/Adafruit_TSL2591_Library)
-  + Install python library dependencies which may not be part of Python2.7:
+  + Install python library dependencies ([ikpy](https://github.com/Phylliade/ikpy) and pyserial) which may not be part of Python2.7:
      ```
-     pip install numpy pyserial
+     pip install numpy pyserial ikpy==3.0
      ```
 
 
